@@ -26,6 +26,34 @@
 - [dotCursorRules](https://www.dotcursorrules.dev/)
 - [Playbooks](https://playbooks.com/)
 
+> [!TIP]
+>
+> ### IMPORTANT: The 15-Minute Rule
+> 
+> If a task takes more than 15 minutes, it’s too big. Here’s how to break it down:
+> 
+> **Wrong:**
+> ```
+> ❌ "Build user authentication"
+> ```
+>
+> **Right way:**
+> ```
+> ✅ Better:  
+> - Create login form component  
+> - Add email validation  
+> - Set up password hashing  
+> - Create JWT token endpoint  
+> - Add login button to navbar  
+> - Write login success test
+> ```
+>
+> ![image](https://github.com/user-attachments/assets/7aee5e73-189d-4707-988a-d67f516dba0b)
+> ![image](https://github.com/user-attachments/assets/b9e70dde-c0fc-4471-b973-5ff0b53c32b9)
+
+
+
+
 ---
 
 ## 📋 Table of Contents
