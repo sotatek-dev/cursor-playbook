@@ -926,6 +926,6 @@ If you found this playbook helpful, please consider:
 
 **Made by the Cursor community**
 
-[Developer Updates](https://www.developerupdates.com/cheatsheets) • [cursor101 Cheatsheet](https://cursor101.com/cursor/cheat-sheet) • [Vibe Code Lab](https://vibecodelab.co/) • [Cursor – Offical Advanced Guides](https://docs.cursor.com/guides)
+[Developer Updates](https://www.developerupdates.com/cheatsheets) • [cursor101 Cheatsheet](https://cursor101.com/cursor/cheat-sheet) • [Vibe Code Lab](https://vibecodelab.co/) • [Cursor – Offical Advanced Guides](https://docs.cursor.com/guides) • [Cem.karaca - Vibe Coding Guide](https://medium.com/@cem.karaca/the-complete-guide-to-vibe-coding-best-practices-for-ai-powered-development-5529dedfd2a7)
 
 </div>
