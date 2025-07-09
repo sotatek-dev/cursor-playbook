@@ -15,6 +15,19 @@
 - 📝 Generate documentation
 - 🔄 Convert between programming languages
 
+> [!TIP]
+> ### Free/Free-trial Alternative
+> While Cursor excels at AI-powered code editing, several alternatives offer unique approaches to AI-assisted development. This section compares the most popular cloud-based solutions with generous free tiers.
+> 
+> | Tool | Type | Free Plan | AI Models | Best For | Unique Features |
+> |------|------|-----------|-----------|----------|-----------------|
+> | **Cursor** | IDE | Limited | Claude, GPT-4, Gemini | Code editing & chat | Advanced codebase context |
+> | **Windsurf** | IDE | Generous | Multiple models | Full development | Full IDE like Cursur but offer Tab and agent mode using SWE-1 Lite model (in-house model of Windsurf) unlimited to free-users |
+> | **Gemini CLI** | Command line | Free (quota) | Gemini Pro | Terminal tasks | Tips: Use Google AI Studio API (free account) for more credits than Gemini API |
+> | **Replit** | Cloud IDE | Generous | Multiple models | Web development | Instant deployment |
+> | **Lovable** | Web Builder | Free tier | GPT-4, Claude | App creation | Visual development |
+> | **V0** | Web tool | Free credits | GPT-4 | UI generation | Component-focused. Especially suitable if using NextJs and shadcn |
+
 ### 🔧 Recommended MCP
 - [Context7](https://context7.com/)
 - [Figma Dev Mode MCP Server](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
