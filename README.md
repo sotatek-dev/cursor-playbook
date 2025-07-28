@@ -62,7 +62,12 @@
 > ```
 >
 > ![image](https://github.com/user-attachments/assets/7aee5e73-189d-4707-988a-d67f516dba0b)
-> ![image](https://github.com/user-attachments/assets/b9e70dde-c0fc-4471-b973-5ff0b53c32b9)
+> | Task Size | Time | AI Success Rate | Example |
+> |-----------|------|-----------------|---------|
+> | Micro | 5 min | 95% | Add loading spinner |
+> | Small | 15 min | 85% | Create user profile component |
+> | Medium | 45 min | 60% | Implement search feature |
+> | Large | 2+ hours | 20% | Build entire dashboard |
 
 
 
