@@ -22,7 +22,9 @@
 > | Tool | Type | Free Plan | AI Models | Best For | Unique Features |
 > |------|------|-----------|-----------|----------|-----------------|
 > | **Cursor** | IDE | Limited | Claude, GPT-4, Gemini | Code editing & chat | Advanced codebase context |
+> | **Github Copilot** | IDE | Limited/Free Trial | Claude, GPT-4, Gemini | Code editing & chat | Advanced codebase context |
 > | **Windsurf** | IDE | Generous | Multiple models | Full development | Full IDE like Cursur but offer Tab and agent mode using SWE-1 Lite model (in-house model of Windsurf) unlimited to free-users |
+> | **Kiro** | IDE | Free during preview | Multiple models | Full development | Spec-driven development: Transforms vibe coding into structured engineering with requirements, design docs, and task lists |
 > | **Gemini CLI** | Command line | Free (quota) | Gemini Pro | Terminal tasks | Tips: Use Google AI Studio API (free account) for more credits than Gemini API |
 > | **Replit** | Cloud IDE | Generous | Multiple models | Web development | Instant deployment |
 > | **Lovable** | Web Builder | Free tier | GPT-4, Claude | App creation | Visual development |
