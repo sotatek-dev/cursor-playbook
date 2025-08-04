@@ -29,6 +29,8 @@
 > | **Replit** | Cloud IDE | Generous | Multiple models | Web development | Instant deployment |
 > | **Lovable** | Web Builder | Free tier | GPT-4, Claude | App creation | Visual development |
 > | **V0** | Web tool | Free credits | GPT-4 | UI generation | Component-focused. Especially suitable if using NextJs and shadcn |
+> | **Gemini Code Assist - Code Review** | Github-based Code Reviewer | Free | | Review fresher/junior code without understanding 'bout business requirements out of the PR | Can automatically review code on Github, allows custom instructions, can summarize PR and review code similar to a senior reviewer but does not understand project operations|
+> | **Github Copilot - Code Review** | Github-based Code Reviewer | Included in Github Copilot license | | Review fresher/junior code without understanding 'bout business requirements out of the PR | Can automatically review code on Github, allows custom instructions, can summarize PR and review code similar to a senior reviewer but does not understand project operations|
 
 ### 🔧 Recommended MCP
 - [Context7](https://context7.com/)
