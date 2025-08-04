@@ -156,80 +156,70 @@
 
 > **🎯 Essential tips to work effectively with AI coding**
 
-#### 1. 📋 Start like a Project Manager, not a Prompt Monkey
+### 🏗️ Setup & Configuration
+
+#### 1. 📋 Start Like a Project Manager, Not a Prompt Monkey
 - ✍️ Write a real PRD before anything else
 - 📝 Describe what you're building, why, and what tools you're using
 - 📁 Keep it in your root directory as `product.md` or `instructions.md`
 - 🔄 Reference this often — AI context evaporates quickly
 
-#### 2. 💬 Short Chats > Smart Chats
-- 🚫 Don't hoard 400-message threads
-- 🆕 Start a new chat per issue
-- 🎯 Keep scope tight. Give clear commands
-
-#### 3. 🎯 Don't Touch Anything Until You've Scoped the Feature
-- 🗺️ Use GPT/Claude to map the full feature first
-- 🎯 Choose a single approach
-- ⚡ Cursor is for execution, not ideation
-
-#### 4. 🧹 Clean Your House Weekly
+#### 2. 🧹 Clean Your House Weekly
 - 🗑️ Delete temp files and dead code
 - 📁 Reorganize folders
 - ✨ Clean codebases make better prompts
 
-#### 5. 🚫 Don't Ask Cursor To Build the Whole Thing
-- 🧩 Use it for stubs, logic chunks, or controlled refactors
-- 🥩 Full apps? You're asking a blender to make steak
+#### 3. 📐 Evolve .cursorrules Through Experience
+- 🌱 **Start small** — don't overthink the initial rules file
+- 🔄 **When Cursor gets it right after your intervention**: Ask it to author/update a rule with its learnings
+- ❌ **Two-mistake rule**: Add to `.cursorrules` whenever Cursor repeats the same mistake twice
+- 🎯 **Optional boost**: Reference [cursor.directory/rules](https://cursor.directory/rules) for framework-specific templates
+- 🎓 **Result**: Organic evolution from toddler to disciplined intern based on your actual workflow
 
-#### 6. ❓ Ask Before You Fix
-- 🐛 Debugging? Ask AI to investigate first
-- 📋 Have it suggest multiple fixes
-- ✅ Pick one before asking it to code
+### 🧠 Workflow Architecture
 
-#### 7. ⚡ Tech Debt Builds at AI Speed
-- 🚀 AI helps you MVP fast. It also digs you a mess faster
-- ⏸️ Pause to refactor. Keep the architecture clean
+#### 4. 🗺️ Don't Touch Anything Until You've Scoped the Feature
+- 🎯 Use GPT/Claude to map the full feature first
+- 🔍 Choose a single approach before coding
+- ⚡ Cursor is for execution, not ideation
 
-#### 8. 👨‍💼 Your Job is to Lead the Machine
-- 🤖 Cursor isn't your developer. You are
-- 📋 Use `.cursorrules` and git checkpoints
-- 🧠 Do the system thinking. AI does the typing
+#### 5. 🧩 Prompt in Layers for Maximum Clarity
+- 📋 Use GPT to plan architecture
+- 🔍 Use Claude to critique approach
+- ⚡ Use Cursor to execute code
+- 💡 Use parallel sessions for better thinking
 
-#### 9. 📐 Set Your Cursor Rules Properly
-- 🌐 Use [cursor.directory/rules](https://cursor.directory/rules)
-- 🔧 Pull rules by framework (Next.js, etc.)
-- 📁 Add rules for folder structure, formatting, testing
-- 🎓 It turns Cursor from a toddler into a disciplined intern
-- 📝 Write clear guidelines on what AI should and shouldn't touch
-- 🚫 Helps avoid random refactors and hallucinated code cleanup
+#### 6. 🐛 Master the Debug Strategy
+- ❓ **First**: Ask AI to investigate — "What broke? Why?" (demand reasoning)
+- 📋 **Before fixing**: Request 3 potential solutions, choose one approach
+- 🔧 **Then**: Execute the fix systematically  
+- 📝 **Finally**: Document the solution in your rules
 
-#### 10. 🌍 Use .cursorrules Files for Global Sanity
-- 📝 Write clear guidelines on what AI should and shouldn't touch
-- 🚫 Helps avoid random refactors and hallucinated code cleanup
+#### 7. 🔗 Reference Existing Code Patterns
+- ❌ **Don't**: "Make a dropdown menu"
+- ✅ **Do**: "Make a dropdown similar to @components/Select.tsx"
+- 🎯 AI performs significantly better with concrete code context
+- 🔍 Cursor can see and learn from your existing patterns
 
-#### 11. 🐛 Build a Debug Ritual
-- ❓ Ask AI: "What broke? Why?"
-- 📋 List 3 solutions. Choose one
-- 🔧 Then fix it
+### ⚡ Execution Discipline
 
-#### 12. 🧠 Cursor Is Dumb When You Are
-- 🗑️ Garbage in = garbage out
-- 💡 Use parallel sessions in Claude or GPT to think better
-- ✅ Come to Cursor with answers, not questions
+#### 8. 🧩 Practice Task Sizing Discipline
+- ✂️ Split work into 1-3 message blocks (micro prompts)
+- ⏰ **15-Minute Rule**: If task takes >15 minutes, it's too big
+- 🚫 Don't ask Cursor to build entire applications
+- 🎯 Use AI for stubs, logic chunks, controlled refactors
+- 📈 Remember: Task size correlates directly with AI failure rate
 
-#### 13. 🏗️ Prompt in Layers
-- 📋 Use GPT to plan
-- 🔍 Use Claude to critique
-- ⚡ Use Cursor to code
+#### 9. 💬 Short Chats > Smart Chats
+- 🚫 Don't hoard 400-message threads
+- 🆕 Start new chat per issue
+- 🎯 Keep scope tight with clear commands
 
-#### 14. 🎲 Use YOLO Mode With Boundaries
-- ⚡ Enable YOLO for speed
-- ⏰ But use git check-ins every hour
-
-#### 15. 🧩 Create Micro Prompts for Each Flow
-- ✂️ Split tasks into 1-3 message blocks
-- 🚫 No essay dumps
-- 🎯 Cursor codes better when the task is tiny
+#### 10. ⚡ Tech Debt Builds at AI Speed
+- 🚀 AI helps you MVP fast, but also digs mess faster
+- ⏸️ Pause regularly to refactor and maintain architecture
+- 📋 Use git checkpoints every hour for safety
+- 🏗️ Keep structural integrity as your priority
 
 ### 📝 Basic Editor Features
 
