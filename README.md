@@ -35,6 +35,7 @@
 - [Figma Dev Mode MCP Server](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
 - [Browser Tools](https://browsertools.agentdesk.ai/installation)
 - [Code Reasoning](https://github.com/mettamatt/code-reasoning)
+- [Serena MCP](https://github.com/oraios/serena)
 
 ### 📚 Essential Sources
 - [Cursor 101](https://cursor101.com/)
